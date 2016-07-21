@@ -1,0 +1,41 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "try to learn Vue with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim192/vue-webpack.git"
+  },
+  "keywords": [
+    "vuewebpack"
+  ],
+  "author": "Humingyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jim192/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/jim192/vue-webpack#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^5.8.34",
+    "css-loader": "^0.23.0",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-loader": "^7.2.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.26"
+  }
+}
